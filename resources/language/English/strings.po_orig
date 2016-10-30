@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main Translation Project (Frodo)\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: XBMC Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/XBMC-Main-Frodo/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#English
+
+msgctxt "#32001"
+msgid "Error searching for subtitles"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Cache settings"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Clear addon`s local cache"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Addon`s local cache was cleared successfully"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Email"
+msgstr ""
+
+msgctxt "#32006"
+msgid "Password"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Login Details"
+msgstr ""
+
+msgctxt "#32008"
+msgid "Check login details"
+msgstr ""
+
+msgctxt "#32009"
+msgid "Wrong email or password"
+msgstr ""
+
+msgctxt "#32010"
+msgid "Logged in successfully"
+msgstr ""
+
+############################## left header ids 33000
+
+msgctxt "#33000"
+msgid "Login Details"
+msgstr ""
+
+msgctxt "#33001"
+msgid "Subtitle Providers"
+msgstr ""
+
+msgctxt "#33101"
+msgid "Debugging"
+msgstr ""
+
+############################## Login Details header 
+msgctxt "#33010"
+msgid "Global Login Information"
+msgstr ""
+
+msgctxt "#33011"
+msgid "   User/email"
+msgstr ""
+
+msgctxt "#33012"
+msgid "   Password"
+msgstr ""
+
+msgctxt "#33013"
+msgid "Select Specific Subtitle Provider"
+msgstr ""
+
+########## 
+msgctxt "#33020"
+msgcid  "Subtitles Provider Options"
+msgstr  ""
+
+msgctxt "#33021"
+msgcid  "Global Search for all Super Subs Providers"
+msgstr  ""
+
+msgctxt "#33022"
+msgcid "Enable Specific Providers"
+msgstr ""
+
+############# Subtitle providers
+msgctxt "#33501"
+msgid   "Torec Site"
+msgstr  "אתר טורק"
+
+msgctxt "#33502"
+msgid   "OpenSubtitles Site"
+msgstr  ""
+
+msgctxt "#33503"
+msgid   "Subscenter Site"
+msgstr  ""
+
+msgctxt "#33504"
+msgid   "Subtitle Site"
+msgstr  "אתר טורק"
+
+############# torec login/password
+msgctxt "#33401"
+msgid   "Torec Username"
+msgstr  "טורק שם משתמש"
+
+msgctxt "#33402"
+msgid   "Torec Password"
+msgstr  "טורק סיסמא"
+
+

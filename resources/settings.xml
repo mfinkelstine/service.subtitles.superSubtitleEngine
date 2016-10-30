@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="33000">
+        <setting label="32001" id="anonymousSearch" type="bool"  default="false" enable="!eq(1,true) | !eq(5,true)" />
+            <!-- <setting label="33006" id="torecUrl"                type="bool" default="false" visible="!eq(-1,false)" />
+            <setting label="33009" id="BSplayerUrl"             type="bool" default="false" visible="!eq(-2,false)" />
+            <setting label="33012" id="SUBCenterUrl"            type="bool" default="false" visible="!eq(-3,false)" />
+            <setting label="33016" id="OpenSubtitleUrl"         type="bool" default="false" visible="!eq(-4,false)" />
+            <setting label="33019" id="KtuvitUrl"               type="bool" default="false" visible="!eq(-5,false)" /> -->       
+        <setting label="32002" id="globalSearch" type="bool"  default="false" enable="!eq(4,true)+!eq(-1,true)" />
+            <setting label="33003" id="globalUsername" type="text" default="" visible="eq(-1,true)" />
+            <setting label="33004" id="globalPassword" type="text" option="hidden"  default="" visible="eq(-2,true)" />  
+        <setting type="sep" />  
+            <setting label="33005" id="specificSiteSearch" type="bool" default="false" enable="!eq(-4,true)+!eq(-5,true)" />           
+            <setting     label="33006" id="torecUrl"  type="bool"  visible="!eq(-1,false)"  default="false" enable="!eq(-1,false)" /> 
+                <setting label="33003" id="torecUser" type="text"  visible="!eq(-1,false)+!eq(-2,false)"  default="false" />
+                <setting label="33004" id="torecPass" type="text"  visible="!eq(-2,false)+!eq(-3,false)"  default="false"  option="hidden" />           
+            <setting label="33009" id="bsplayerUrl" type="bool" default="false"  visible="!eq(-4,false)" enable="!eq(-4,false)" />
+                <setting label="33003" id="bsplayerUser" type="text" visible="!eq(-1,false)+!eq(-5,false)" default="false" />
+                <setting label="33004" id="bsplayerPass" type="text" visible="!eq(-2,false)+!eq(-6,false)" default="false" option="hidden"/>            
+            <setting label="33012" id="subcenterUrl" type="bool" default="false"  visible="!eq(-7,false)" enable="!eq(-7,false)"/>
+                <setting label="33003" id="subcUser" type="text" visible="!eq(-1,false)+!eq(-8,false)" default="false" />
+                <setting label="33004" id="subcPass" type="text" visible="!eq(-2,false)+!eq(-9,false)" default="false" option="hidden"/>            
+            <setting label="33016" id="opensubUrl" type="bool" default="false" visible="!eq(-10,false)" enable="!eq(-10,false)"/>
+                <setting label="33003" id="opensUser" type="text" visible="!eq(-1,false)+!eq(-11,false)" default="false" />
+                <setting label="33004" id="opensPass" type="text" visible="!eq(-2,false)+!eq(-12,false)" default="false" option="hidden" />            
+            <setting label="33019" id="ktuvitUrl" type="bool" default="false" visible="!eq(-13,false)" enable="!eq(-13,false)"/>
+                <setting label="33003" id="ktuvitUser" type="text" visible="!eq(-1,false)+!eq(-14,false)" default="false" />
+                <setting label="33004" id="ktuvitPass" type="text" visible="!eq(-2,false)+!eq(-15,false)" default="false" option="hidden" />         
+        <setting type="sep"/>
+            <setting label="32007" type="select" id="language" values="cs|da|de|el|en|es|fi|fr|he|hr|hu|it|ja|ko|nl|no|pl|pt|ru|sl|sv|tr|zh" sort="yes" default="he" />        
+        <setting type="sep"/>
+            <setting label="32008" type="action"  action="RunScript(service.subtitles.superSubtitleEngine, 1, action=checkLogins)" option="close" />
+    </category>
+    <!-- 
+    <category label="35001">
+        <setting label="35002" id="debug" type="bool"  default="false"/>
+        <setting label="35003" type="lsep" />
+        <setting label="35004" id="error_notify" type="bool" default="false"/>
+        <setting label="35005" id="mute_notifications" type="bool" default="true"/>
+    </category> 
+    -->
+</settings>

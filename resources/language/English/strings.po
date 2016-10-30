@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main Translation Project (Frodo)\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: XBMC Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/XBMC-Main-Frodo/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#English
+
+msgctxt "#32010"
+msgid "     Torec Username"
+msgstr ""
+
+msgctxt "#32011"
+msgid "     Torec Password"
+msgstr ""
+
+msgctxt "#32012"
+msgid "OpenSubtitle Username"
+msgstr ""
+
+msgctxt "#32013"
+msgid "OpenSubtitle Password"
+msgstr ""
+
+msgctxt "#32014"
+msgid "BSplayer Username"
+msgstr ""
+
+msgctxt "#32015"
+msgid "BSplayer Password"
+msgstr ""
+
+msgctxt "#32016"
+msgid "SUBCenter Username"
+msgstr ""
+
+msgctxt "#32017"
+msgid "SUBCenter Password"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Select Language"
+msgstr ""
+
+msgctxt "#32008"
+msgid "Check login details"
+msgstr ""
+
+
+msgctxt "#33000"
+msgid "Login Detailes"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Anonymous connection"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Global Site Authentication"
+msgstr ""
+
+msgctxt "#33003"
+msgid " - Username"
+msgstr ""
+
+msgctxt "#33004"
+msgid " - Password"
+msgstr ""
+
+msgctxt "#33005"
+msgid "Subtitle Site Authentication"
+msgstr ""
+
+msgctxt "#33006"
+msgid " Torec Site"
+msgstr ""
+
+msgctxt "#33007"
+msgid ""
+msgstr ""
+
+msgctxt "#33008"
+msgid ""
+msgstr ""
+
+msgctxt "#33009"
+msgid "BSplayer site"
+msgstr ""
+
+msgctxt "#33010"
+msgid ""
+msgstr ""
+
+msgctxt "#33011"
+msgid ""
+msgstr ""
+
+msgctxt "#33012"
+msgid "SUBCenter Site"
+msgstr ""
+
+msgctxt "#33013"
+msgid ""
+msgstr ""
+
+msgctxt "#33014"
+msgid ""
+msgstr ""
+
+msgctxt "#33015"
+msgid ""
+msgstr ""
+
+msgctxt "#33016"
+msgid "OpenSubtitle Site"
+msgstr ""
+
+msgctxt "#33017"
+msgid ""
+msgstr ""
+
+msgctxt "#33018"
+msgid ""
+msgstr ""
+
+msgctxt "#33019"
+msgid "Ktuvit site"
+msgstr ""
+
+msgctxt "#33020"
+msgid ""
+msgstr ""
+
+msgctxt "#33021"
+msgid ""
+msgstr ""
+
+msgctxt "#34001"
+msgid "Subtitle Providers"
+msgstr ""
+
+msgctxt "#34002"
+msgid "Global Site Providers Enable"
+msgstr ""
+
+msgctxt "#34003"
+msgid "Specific Site Enable"
+msgstr ""
+
+msgctxt "#35001"
+msgid "Debug Info"
+msgstr ""
+
+msgctxt "#35002"
+msgid "DEBUG Enable"
+msgstr ""
+
+msgctxt "#35003"
+msgid "DEBUG Notification Optionsnable"
+msgstr ""
+
+msgctxt "#35004"
+msgid " Non Fatal Error Notifications"
+msgstr ""
+
+msgctxt "#35005"
+msgid " Mute Fatal Error Notifications"
+msgstr ""
