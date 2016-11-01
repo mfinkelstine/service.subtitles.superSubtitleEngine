@@ -84,7 +84,7 @@ msgid " Torec Site"
 msgstr ""
 
 msgctxt "#33007"
-msgid ""
+msgid "Global Setting"
 msgstr ""
 
 msgctxt "#33008"
