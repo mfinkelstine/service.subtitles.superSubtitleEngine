@@ -67,8 +67,14 @@ from subtitleUtils import log,notify, get_params
 params = get_params()
 #xbmc.log("Params %s" % params['action'], level=xbmc.LOGDEBUG)
 log(SCRIPTNAME,"[%s] params" % params['action'])
-if params['action'] in ['search', 'manualsearch']:
+if params['action'] == 'search':
     log(SCRIPTNAME, "Params [ %s ]" %params['action'],"NOTICE")
+elif params['action'] == 'manualsearch':
+    log(SCRIPTNAME, "Params [ %s ]" %params['action'],"NOTICE")
+
+elif params['action'] == 'download':
+    log(SCRIPTNAME, "Params [ %s ]" %params['action'],"NOTICE")
+
 elif params['action'] == 'checkLogins':
     log(SCRIPTNAME, "Params [ %s ]" %params['action'],"NOTICE")
     superSub = subtitleEngine()
