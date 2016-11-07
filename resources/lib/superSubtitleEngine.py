@@ -17,9 +17,9 @@ import xbmcvfs
 import xbmcaddon
 import xbmcgui
 
-import subtitleLibrary
+#import subtitleSiteLibrary
 
-from subtitleUtils import log, notify, MyClass, Viewer
+from subtitleUtils import log, notify
 
 __addon__       = xbmcaddon.Addon()
 __version__     = __addon__.getAddonInfo('version')  # Module version
@@ -47,14 +47,10 @@ class superSearchEngine(object):
 class subtitleEngine:
     #baseSite = [ 'torecUrl', 'bsplayerUrl', 'subcenterUrl','opensubUrl', 'ktuvitUrl' ]
     # constants
-    WINDOW = 10147
-    CONTROL_LABEL = 1
-    CONTROL_TEXTBOX = 5
 
     def __init__(self):
         self.urlHandler = "http://www.walla.co.il"
         log(__version__,"[%s] subtitleEngine init" % __scriptname__)
-#        self.WINDOW = xbmcgui.Window(10000)
         self.baseSite = [ 'torecUrl', 'bsplayerUrl', 'subcenterUrl','opensubtitlesUrl', 'ktuvitUrl' ]
         self.userAttar = {}
         self.siteCheck = {}
@@ -93,26 +89,26 @@ class subtitleEngine:
         log(__scriptname__,"site To Check : [ %s ] " % self.siteCheck, "NOTICE" )
             
                 #self.global = { 'globalUser' : __addon__.getSetting("globalUsername") , 'globalPass' :  __addon__.getSetting("globalUsername") }
-    def authenticationHostsSettings(self):
+    def hostSettingsXML(self):
         
         if __addon__.getSetting("anonymousSearch") == 'true':
             for i in range(len(self.baseSite)):
                 if __addon__.getSetting(self.baseSite[i]+'anon') == "true":
                     self.siteCheck[self.baseSite[i]] = {'username' : 'Anonymouse' , 'password' : 'Anonymouse' }
-            anonymouse = 1
-            return anonymouse
+            
+            return self.siteCheck
         elif __addon__.getSetting("globalSearch") == 'true':
             for i in range(len(self.baseSite)):
                 self.siteCheck[self.baseSite[i]] = {'username' : __addon__.getSetting("globalUsername") , 'password' : __addon__.getSetting("globalPassword") }
-            global = 1
-            return global
+            
+            return self.siteCheck
         elif __addon__.getSetting("specificSiteSearch") == 'true':
             for i in range(len(self.baseSite)):
                 if __addon__.getSetting(self.baseSite[i]) == 'true':
                     self.siteCheck[self.baseSite[i]] = {'username' : __addon__.getSetting(self.baseSite[i]+'User') , 'password' : __addon__.getSetting(self.baseSite[i]+'Pass') }
                 
-            specific = 1
-            return specific
+            
+            return self.siteCheck   
     
     #def checkSelectedSites(self):
     #    if __addon__.getSetting(self.baseSite[i]) == 'true':
